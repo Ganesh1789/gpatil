@@ -23,6 +23,8 @@ app.use(cors({
       'http://localhost:5173',
       'http://localhost:4173',
       'https://gpatil.vercel.app',
+      'https://gpatil.in',
+      'https://www.gpatil.in',
       process.env.CLIENT_URL,
     ].filter(Boolean);
     // Allow requests with no origin (e.g. Postman, server-to-server)
